@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Test de Hosting</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <div class="card">
+
+            <div class="status">
+                <span class="status-dot"></span>
+                ONLINE
+            </div>
+
+            <h1>Hosting funcionando</h1>
+
+            <p>
+                Si puedes ver esta página, el hosting está sirviendo
+                correctamente los archivos.
+            </p>
+
+            <div class="tests">
+
+                <div class="test">
+                    <span>HTML</span>
+                    <strong>✓</strong>
+                </div>
+
+                <div class="test">
+                    <span>CSS</span>
+                    <strong>✓</strong>
+                </div>
+
+                <div class="test">
+                    <span>JavaScript</span>
+                    <strong id="js-status">...</strong>
+                </div>
+
+            </div>
+
+            <button id="test-button">
+                Probar JavaScript
+            </button>
+
+            <p id="message"></p>
+
+            <div class="clock">
+                Hora local:
+                <span id="clock">--:--:--</span>
+            </div>
+
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
